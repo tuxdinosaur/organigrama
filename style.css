@@ -1,0 +1,99 @@
+/* *,
+*:before,
+*:after {
+  box-sizing: border-box;
+} */
+
+@import url("https://fonts.googleapis.com/css?family=Montserrat:500&display=swap");
+
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+.title {
+  background: #96858f;
+  margin-top: 10px;
+  padding: 10px;
+  color: #fff;
+  position: relative;
+  border-radius: 5px;
+}
+
+.padre {
+  background: #96858f;
+  margin-top: 10px;
+  padding: 12px;
+  color: #fff;
+  position: relative;
+  border-radius: 5px;
+}
+
+.hijo {
+  background: #6d7993;
+  margin-top: 10px;
+  padding: 12px;
+  color: #fff;
+  position: relative;
+  border-radius: 5px;
+}
+
+.nieto {
+  background: #9099a2;
+  margin-top: 10px;
+  padding: 12px;
+  color: #fff;
+  position: relative;
+  border-radius: 5px;
+}
+
+.department {
+  position: relative;
+}
+
+.content {
+  /* border-left: 2px solid #363636; */
+  padding: 0px 0 0 50px;
+  display: none;
+}
+
+/* .department-list .department {
+  padding-right: 0;
+} */
+
+.department-list .title:before {
+  position: absolute;
+  /* left: -5px;
+  width: 20px;
+  height: 2px;
+  background: #363636; */
+  /* content: "";
+  top: 50%;
+  margin-top: -1px; */
+}
+
+/* .department-list .title:after {
+  position: absolute;
+  left: -5px;
+  width: 10px;
+  height: 10px;
+  background: #363636;
+  content: "";
+  top: 50%;
+  border-radius: 50%;
+  margin-top: -5px;
+} */
+
+/* .department-list > .department:last-child:before {
+  position: absolute;
+  content: "";
+  width: 35px;
+  left: -45px;
+  top: 20px;
+  bottom: 0;
+  background: #fff;
+} */
+
+/* STATE */
+.is-visible {
+  display: block;
+}
